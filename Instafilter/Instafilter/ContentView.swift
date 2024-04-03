@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var blurAmout = 0.0 {
+        didSet {
+            print("New value is \(blurAmout)")
+        }
+    }
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, World")
+                .blur(radius: blurAmout)
+            Slider(value: $blurAmout, in: 0...20)
+                .onChange(of: blurAmout, { oldValue, newValue in
+                    print("New value is \(newValue)")
+                })
+                .padding()
+            Button("Random blur") {
+                blurAmout = Double.random(in: 0...20)
+            }
         }
-        .padding()
     }
 }
 
