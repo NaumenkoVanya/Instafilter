@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA5F04AC2BBF32F200144A81 /* ShareLinkCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F04AB2BBF32F200144A81 /* ShareLinkCV.swift */; };
+		CA5F04AE2BBF345600144A81 /* AppStoreReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F04AD2BBF345600144A81 /* AppStoreReview.swift */; };
 		CAD6CCB32BBCA875009D171E /* InstafilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6CCB22BBCA875009D171E /* InstafilterApp.swift */; };
 		CAD6CCB52BBCA875009D171E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6CCB42BBCA875009D171E /* ContentView.swift */; };
 		CAD6CCB72BBCA877009D171E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD6CCB62BBCA877009D171E /* Assets.xcassets */; };
@@ -14,9 +16,12 @@
 		CADB67CB2BBDDC4B005328F7 /* ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADB67CA2BBDDC4B005328F7 /* ConfirmationDialog.swift */; };
 		CADB67CD2BBDDFEB005328F7 /* CoreImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADB67CC2BBDDFEB005328F7 /* CoreImageVC.swift */; };
 		CADB67D12BBEAC96005328F7 /* UnavaiLableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADB67D02BBEAC96005328F7 /* UnavaiLableView.swift */; };
+		CADB67D32BBEB451005328F7 /* LoadingPhotosUsLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADB67D22BBEB451005328F7 /* LoadingPhotosUsLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA5F04AB2BBF32F200144A81 /* ShareLinkCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkCV.swift; sourceTree = "<group>"; };
+		CA5F04AD2BBF345600144A81 /* AppStoreReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreReview.swift; sourceTree = "<group>"; };
 		CAD6CCAF2BBCA875009D171E /* Instafilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD6CCB22BBCA875009D171E /* InstafilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterApp.swift; sourceTree = "<group>"; };
 		CAD6CCB42BBCA875009D171E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +30,7 @@
 		CADB67CA2BBDDC4B005328F7 /* ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog.swift; sourceTree = "<group>"; };
 		CADB67CC2BBDDFEB005328F7 /* CoreImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageVC.swift; sourceTree = "<group>"; };
 		CADB67D02BBEAC96005328F7 /* UnavaiLableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnavaiLableView.swift; sourceTree = "<group>"; };
+		CADB67D22BBEB451005328F7 /* LoadingPhotosUsLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPhotosUsLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				CADB67CA2BBDDC4B005328F7 /* ConfirmationDialog.swift */,
 				CADB67CC2BBDDFEB005328F7 /* CoreImageVC.swift */,
 				CADB67D02BBEAC96005328F7 /* UnavaiLableView.swift */,
+				CADB67D22BBEB451005328F7 /* LoadingPhotosUsLib.swift */,
+				CA5F04AB2BBF32F200144A81 /* ShareLinkCV.swift */,
+				CA5F04AD2BBF345600144A81 /* AppStoreReview.swift */,
 			);
 			path = Instafilter;
 			sourceTree = "<group>";
@@ -147,10 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAD6CCB52BBCA875009D171E /* ContentView.swift in Sources */,
+				CADB67D32BBEB451005328F7 /* LoadingPhotosUsLib.swift in Sources */,
 				CADB67D12BBEAC96005328F7 /* UnavaiLableView.swift in Sources */,
 				CADB67CD2BBDDFEB005328F7 /* CoreImageVC.swift in Sources */,
 				CAD6CCB32BBCA875009D171E /* InstafilterApp.swift in Sources */,
 				CADB67CB2BBDDC4B005328F7 /* ConfirmationDialog.swift in Sources */,
+				CA5F04AC2BBF32F200144A81 /* ShareLinkCV.swift in Sources */,
+				CA5F04AE2BBF345600144A81 /* AppStoreReview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
