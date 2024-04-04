@@ -12,6 +12,8 @@
 		CAD6CCB72BBCA877009D171E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD6CCB62BBCA877009D171E /* Assets.xcassets */; };
 		CAD6CCBA2BBCA877009D171E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD6CCB92BBCA877009D171E /* Preview Assets.xcassets */; };
 		CADB67CB2BBDDC4B005328F7 /* ConfirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADB67CA2BBDDC4B005328F7 /* ConfirmationDialog.swift */; };
+		CADB67CD2BBDDFEB005328F7 /* CoreImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADB67CC2BBDDFEB005328F7 /* CoreImageVC.swift */; };
+		CADB67D12BBEAC96005328F7 /* UnavaiLableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADB67D02BBEAC96005328F7 /* UnavaiLableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		CAD6CCB62BBCA877009D171E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD6CCB92BBCA877009D171E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CADB67CA2BBDDC4B005328F7 /* ConfirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialog.swift; sourceTree = "<group>"; };
+		CADB67CC2BBDDFEB005328F7 /* CoreImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageVC.swift; sourceTree = "<group>"; };
+		CADB67D02BBEAC96005328F7 /* UnavaiLableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnavaiLableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				CAD6CCB62BBCA877009D171E /* Assets.xcassets */,
 				CAD6CCB82BBCA877009D171E /* Preview Content */,
 				CADB67CA2BBDDC4B005328F7 /* ConfirmationDialog.swift */,
+				CADB67CC2BBDDFEB005328F7 /* CoreImageVC.swift */,
+				CADB67D02BBEAC96005328F7 /* UnavaiLableView.swift */,
 			);
 			path = Instafilter;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAD6CCB52BBCA875009D171E /* ContentView.swift in Sources */,
+				CADB67D12BBEAC96005328F7 /* UnavaiLableView.swift in Sources */,
+				CADB67CD2BBDDFEB005328F7 /* CoreImageVC.swift in Sources */,
 				CAD6CCB32BBCA875009D171E /* InstafilterApp.swift in Sources */,
 				CADB67CB2BBDDC4B005328F7 /* ConfirmationDialog.swift in Sources */,
 			);
