@@ -15,7 +15,9 @@ struct ContentView: View {
     }
     
     var body: some View {
-        
+        Image("test")
+            .resizable()
+            .scaledToFit()
         VStack {
             Text("Hello, World")
                 .blur(radius: blurAmout)

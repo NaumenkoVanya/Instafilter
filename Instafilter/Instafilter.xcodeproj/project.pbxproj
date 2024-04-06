@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CA5F04AC2BBF32F200144A81 /* ShareLinkCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F04AB2BBF32F200144A81 /* ShareLinkCV.swift */; };
 		CA5F04AE2BBF345600144A81 /* AppStoreReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F04AD2BBF345600144A81 /* AppStoreReview.swift */; };
+		CA9C8B192BC1D72400FF4A41 /* BasicUICV.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C8B182BC1D72400FF4A41 /* BasicUICV.swift */; };
 		CAD6CCB32BBCA875009D171E /* InstafilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6CCB22BBCA875009D171E /* InstafilterApp.swift */; };
 		CAD6CCB52BBCA875009D171E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6CCB42BBCA875009D171E /* ContentView.swift */; };
 		CAD6CCB72BBCA877009D171E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD6CCB62BBCA877009D171E /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		CA5F04AB2BBF32F200144A81 /* ShareLinkCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLinkCV.swift; sourceTree = "<group>"; };
 		CA5F04AD2BBF345600144A81 /* AppStoreReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreReview.swift; sourceTree = "<group>"; };
+		CA9C8B182BC1D72400FF4A41 /* BasicUICV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicUICV.swift; sourceTree = "<group>"; };
 		CAD6CCAF2BBCA875009D171E /* Instafilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD6CCB22BBCA875009D171E /* InstafilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterApp.swift; sourceTree = "<group>"; };
 		CAD6CCB42BBCA875009D171E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				CADB67D22BBEB451005328F7 /* LoadingPhotosUsLib.swift */,
 				CA5F04AB2BBF32F200144A81 /* ShareLinkCV.swift */,
 				CA5F04AD2BBF345600144A81 /* AppStoreReview.swift */,
+				CA9C8B182BC1D72400FF4A41 /* BasicUICV.swift */,
 			);
 			path = Instafilter;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				CADB67D32BBEB451005328F7 /* LoadingPhotosUsLib.swift in Sources */,
 				CADB67D12BBEAC96005328F7 /* UnavaiLableView.swift in Sources */,
 				CADB67CD2BBDDFEB005328F7 /* CoreImageVC.swift in Sources */,
+				CA9C8B192BC1D72400FF4A41 /* BasicUICV.swift in Sources */,
 				CAD6CCB32BBCA875009D171E /* InstafilterApp.swift in Sources */,
 				CADB67CB2BBDDC4B005328F7 /* ConfirmationDialog.swift in Sources */,
 				CA5F04AC2BBF32F200144A81 /* ShareLinkCV.swift in Sources */,
